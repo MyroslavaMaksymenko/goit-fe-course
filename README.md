@@ -1,2 +1,2 @@
 # goit-fe-course
-#index.html
+# hw-01-02/index.html
