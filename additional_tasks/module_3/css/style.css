@@ -9,9 +9,11 @@
 .center{
   display:inline-block;
   color:blue;
+  margin-right:20px;
+  list-style:none;
+  padding:0;
   }
 .center:hover {
-  padding:0;
   color:red;
 }
 .wrapper{
@@ -27,22 +29,21 @@
   box-shadow: 0px 0px 8px 0px #7b8084;
 }
 .container{
-   margin:0 auto 34px auto;
+  margin:0 auto;
   max-width:420px;
 }
 .type{
   text-transform: uppercase;
 }
 h2{
-  font-size:30px;
+  font-size:26px;
   font-stretch:ultra-condensed;
-  
 }
 .picture{
   max-width:420px;
   display:block;
   box-sizing: border-box;
-  margin:0 auto 34px auto;
+  margin:0 auto 34px;
   max-width:420px;
 }
 /*------------задание 3*/
@@ -55,12 +56,21 @@ h2{
 }
 .element {
   display: inline-block;
-  max-width:405px;
-  margin: 0 auto;
-  padding:20px;
+  max-width:420px;
+  /*margin: 0 auto;*/
   color:#626262;
+  text-align:
  }
 
- img{
-   
- }
+.list{
+  margin:0;
+  padding:0;
+}
+.first{
+  margin-left:30;
+  margin-right: 30;
+}
+.last{
+  margin-left:30;
+  margin-right: 30;
+}
