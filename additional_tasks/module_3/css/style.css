@@ -50,27 +50,24 @@ h2{
 .wrapper-task3{
   max-width:960px;
   margin:0 auto;
-  padding:24px;
+  padding:42px;
   color:#626262;
   box-shadow: 0px 0px 8px 0px #7b8084;
+}
+.list{
+  margin:0;
+  padding:0;
+  font-size: 0;
 }
 .element {
   display: inline-block;
   max-width:420px;
   /*margin: 0 auto;*/
   color:#626262;
-  text-align:
+  font-size: 16px;
+  margin-right: 100px;
  }
 
-.list{
-  margin:0;
-  padding:0;
-}
-.first{
-  margin-left:30;
-  margin-right: 30;
-}
-.last{
-  margin-left:30;
-  margin-right: 30;
-}
+ .element:nth-child(2n) {
+  margin-right: 0;
+ }
