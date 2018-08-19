@@ -1,0 +1,60 @@
+@font-face {
+ font-family: 'Playfair Display', sans-serif;
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}  
+
+.center{
+  display:inline-block;
+  color:blue;
+  }
+.center:hover {
+  color:red;
+}
+.wrapper{
+  max-width:600px;
+  margin: auto;
+}
+/*----------задание 2*/
+.wrapper1{
+  max-width:470px;
+  margin: auto;
+  padding:34px;
+  color:#626262;
+  box-shadow: 0px 0px 8px 0px #7b8084;
+}
+.container{
+   margin:0 auto 34px auto;
+  max-width:420px;
+}
+.type{
+  text-transform: uppercase;
+}
+h2{
+  font-size:30px;
+  font-stretch:ultra-condensed;
+  /*не знаю как сделать шрифт вытянутым*/
+}
+.picture{
+  max-width:420px;
+  display:block;
+  box-sizing: border-box;
+  margin:0 auto 34px auto;
+  text-align: center;
+  max-width:420px;
+}
+/*------------задание 3*/
+.wrapper2{
+  max-width:960px;
+  margin: auto;
+  padding:34px;
+  color:#626262;
+  box-shadow: 0px 0px 8px 0px #7b8084;
+}
+.element {
+  display: inline-block;
+ 
+  margin: auto;
+  padding:20px;
+  color:#626262;
+ }
