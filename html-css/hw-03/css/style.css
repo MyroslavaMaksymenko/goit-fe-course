@@ -1,7 +1,131 @@
 body {
-    font-family: "Playfair Display", "Times New Roman", serif;
-    font-weight: 400;
-    color: #626262;
-    font-size: 14px;
-    line-height: 24px;   
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: 400;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@font-face {
+  font-family: "Playfair Display", sans-serif;
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+* {
+  font-family: "Playfair Display", sans-serif;
+}
+.wrapper{
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #626262;
+  padding-top: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+  box-shadow: 0px 0px 8px 0px #7b8084;
+}
+.page-header{
+  width: 590px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 105px;
+}
+.navigation-list{
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.navigation-list-item{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+.link {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+  color:#626262;
+  /*margin-right: 106px*/
+}
+.link:hover {
+  color: #7fcaf9;
+}
+.navigation-list-item{
+  margin-right: 106px
+}
+.navigation-list-item:last-child {
+  margin-right:0px;
+}
+
+/*
+}
+.containe {
+  margin: 0 auto;
+  max-width: 420px;
+}
+.type {
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 26px;
+  font-stretch: ultra-condensed;
+}
+.picture {
+  max-width: 420px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto 34px;
+  max-width: 420px;
+}
+------------задание 3*/
+.container {
+  width: 900px;
+  margin: 0 auto;
+  /*padding: 30px;*/
+  color: #626262;
+  box-sizing: border-box;
+}
+.article-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.article-list-item {
+  display: inline-block;
+  width: 420px;
+  color: #626262;
+  font-size: 16px;
+  margin-right: 60px;
+  margin-bottom: 135px;
+}
+.subtitle{
+  text-transform: uppercase;
+}
+h2{
+  font-size:26px;
+  font-stretch:ultra-condensed;
+}
+.article-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+.article-list-item:nth-child(n+5){
+  margin-bottom: 60px;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;  
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.loading-button {   
+  margin: 0 auto;
+  border: 1px solid #626262;
+  line-height: 3;
+  width: 160px;
+  height: 60px;
 }
