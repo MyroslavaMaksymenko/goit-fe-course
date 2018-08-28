@@ -14,23 +14,14 @@ body {
 * {
   font-family: "Playfair Display", sans-serif;
 }
-.wrapper{
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  color: #626262;
-  padding-top: 70px;
-  padding-left: 150px;
-  padding-right: 150px;
-  box-shadow: 0px 0px 8px 0px #7b8084;
-}
+
 .page-header{
-  width: 590px;
-  margin: 0 auto;
   box-sizing: border-box;
+  margin-top: 70px;
   margin-bottom: 105px;
 }
 .navigation-list{
+  text-align:center;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -43,7 +34,8 @@ body {
   list-style: none;
 }
 .link {
-	text-decoration: none;
+  text-decoration: none;
+  display:block;
 	text-transform: uppercase;
 	text-align: center;
   color:#626262;
@@ -58,35 +50,15 @@ body {
 .navigation-list-item:last-child {
   margin-right:0px;
 }
-
-/*
-}
-.containe {
-  margin: 0 auto;
-  max-width: 420px;
-}
-.type {
-  text-transform: uppercase;
-}
-h2 {
-  font-size: 26px;
-  font-stretch: ultra-condensed;
-}
-.picture {
-  max-width: 420px;
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto 34px;
-  max-width: 420px;
-}
-------------задание 3*/
-.container {
+.wrapper {
   width: 900px;
   margin: 0 auto;
-  /*padding: 30px;*/
   color: #626262;
-  box-sizing: border-box;
 }
+.wrapper{
+  margin-bottom: 60px;
+}
+
 .article-list {
   margin: 0;
   padding: 0;
@@ -100,32 +72,54 @@ h2 {
   margin-right: 60px;
   margin-bottom: 135px;
 }
+img {
+  margin-bottom: 29px;
+}
 .subtitle{
   text-transform: uppercase;
+  margin: 0;
 }
-h2{
+.subtitle{
+  margin-bottom: 27px;
+}
+.visually-hidden{
+display: none;
+margin: 0;
+}
+h3{
   font-size:26px;
   font-stretch:ultra-condensed;
+  margin: 0;
+}
+h3{
+  margin-bottom: 39px;
+}
+.text {
+  margin: 0;
 }
 .article-list-item:nth-child(2n) {
   margin-right: 0;
 }
-.article-list-item:nth-child(n+5){
-  margin-bottom: 60px;
+.article-list-item:nth--last-child(-n+2){
+  margin-bottom: 0;
 }
 
 button {
-  text-align: center;
-  text-decoration: none;  
-  width: 160px;
-  height: 60px;
   font-size: 20px;
-}
-
-.loading-button {   
-  margin: 0 auto;
+  line-height: 24px;
+  color: #626262;
+  background-color: #ffffff;
+  font-family: "Playfair Display", serif;
   border: 1px solid #626262;
-  line-height: 3;
-  width: 160px;
-  height: 60px;
+  padding: 22px 35px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+button{
+margin-bottom: 70px;
+}
+button:hover {
+  color: #7fcaf9;
+  background-color:#626262;
 }
