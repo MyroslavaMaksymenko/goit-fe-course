@@ -14,10 +14,18 @@ body {
 * {
   font-family: "Playfair Display", sans-serif;
 }
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  color: #626262;
+  padding-top: 70px;
+}
+/*.wrapper{
+  margin-bottom: 60px;
+}*/
 
 .page-header{
   box-sizing: border-box;
-  margin-top: 70px;
   margin-bottom: 105px;
 }
 .navigation-list{
@@ -39,7 +47,6 @@ body {
 	text-transform: uppercase;
 	text-align: center;
   color:#626262;
-  /*margin-right: 106px*/
 }
 .link:hover {
   color: #7fcaf9;
@@ -50,19 +57,12 @@ body {
 .navigation-list-item:last-child {
   margin-right:0px;
 }
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
-  color: #626262;
-}
-.wrapper{
-  margin-bottom: 60px;
-}
 
 .article-list {
   margin: 0;
   padding: 0;
   font-size: 0;
+  margin-bottom: 60px;
 }
 .article-list-item {
   display: inline-block;
@@ -82,9 +82,19 @@ img {
 .subtitle{
   margin-bottom: 27px;
 }
-.visually-hidden{
-display: none;
-margin: 0;
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
 }
 h3{
   font-size:26px;
@@ -100,7 +110,7 @@ h3{
 .article-list-item:nth-child(2n) {
   margin-right: 0;
 }
-.article-list-item:nth--last-child(-n+2){
+.article-list-item:nth-last-child(-n+2){
   margin-bottom: 0;
 }
 
