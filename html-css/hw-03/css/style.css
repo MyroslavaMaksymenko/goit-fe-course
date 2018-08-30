@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   color: #626262;
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 /*.wrapper{
   margin-bottom: 60px;
@@ -125,9 +126,6 @@ button {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-}
-button{
-margin-bottom: 70px;
 }
 button:hover {
   color: #7fcaf9;
