@@ -127,6 +127,7 @@ button {
   display: block;
   margin: 0 auto;
 }
+
 button:hover {
   color: #7fcaf9;
   background-color:#626262;
