@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>homework-04</title>
+    <title>homework-05</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Myroslava Maksymenko">
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -19,9 +19,9 @@
 
         <!--navigation-->
         <header class="page-header clearfix">
-            <nav class="navigation-container">
+            <nav class="navigation-container clearfix">
                 <a href="#" class="logo">Mart</a>
-                <ul class="navigation-list">
+                <ul class="navigation-list clearfix">
                     <li class="navigation-list-item">
                         <a href="#" class="link">home</a>
                     </li>
@@ -43,17 +43,33 @@
                 </ul>
             </nav>
         </header>
-
+    </div>
         <main>
             <h1 class="visually-hidden">SEO</h1>
+             <!--Affordable Paris Tours section-->
 
-            <!--featured content section-->
+               <div class="slider">
+                    <div class="slider-title container">
+                      <button class="slider-ctrl slider-ctrl-prev"> </button>
+                      <button class="slider-ctrl slider-ctrl-next"> </button>
+                      <ul class="slides-list">
+                        <li class="slides-item">
+                          <p class="slides-title">Affordable Paris Tours</p>
+                          <p class="slides-descr">City tours / Tour tickets / Our guides</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+           </div>
 
-            <section class="featured-products">
-                <h2 class="featured-products-title">featured products</h2>
-                <ul class="featured-products-list clearfix">
-                    <li class="featured-products-item">
-                        <!--<div class="featured-products-item-container" - to think about>-->
+
+            <!--collection content section-->
+
+            <section class="collection">
+                <h2 class="collection-title">New Collection</h2>
+                <ul class="collection-list clearfix">
+                    <li class="collection-item">
+                        <!--<div class="collection-item-container" - to think about>-->
                         <img src="./img/product1.jpg" alt="blue tshirt" height="280" width="255">
                         <div class="product-info clearfix">
                             <p class="product-item-title">blue tshirt</p>
@@ -61,68 +77,39 @@
                         </div>
                         <!--</div>-->
                     </li>
-                    <li class="featured-products-item">
+                    <li class="collection-item">
                         <img src="./img/product2.jpg" alt="woman shirt" height="280" width="255">
                         <div class="product-info clearfix">
                             <p class="product-item-title">woman shirt</p>
                             <p class="product-item-price">$31</p>
                         </div>
                     </li>
-                    <li class="featured-products-item">
+                    <li class="collection-item">
                         <img src="./img/product3.jpg" alt="yellow tshirt" height="280" width="255">
                         <div class="product-info clearfix">
                             <p class="product-item-title">yellow tshirt</p>
                             <p class="product-item-price">$21</p>
                         </div>
                     </li>
-                    <li class="featured-products-item">
+                    <li class="collection-item">
                         <img src="./img/product4.jpg" alt="cool lingerie" height="280" width="255">
                         <div class="product-info clearfix">
                             <p class="product-item-title">cool lingerie</p>
                             <p class="product-item-price">$56</p>
                         </div>
                     </li>
-                   
-                </ul>
-            </section>
 
-            <!--latest news section-->
-
-            <section class="latest-news">
-                <h2 class="latest-news-title">latest news</h2>
-                <ul class="latest-news-list clearfix">
-                    <li class="latest-news-item">
-                        <article class="latest-news-container">
-                            <img class="news-picture" src="./img/news_1_ipad.jpg" alt="ipad" height="261" width="347">
-                            <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
-                            <p class="news-text"> Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-                                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidun </p>
-                            <button class="butn">Read More</button>
-                        </article>
-                    </li>
-                    <li class="latest-news-item">
-                        <article class="latest-news-container">
-                            <img class="news-picture" src="./img/news_2_two_girls.jpg" alt="two girls" height="261" width="347">
-                            <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
-                            <p class="news-text"> Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-                                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidun </p>
-                            <button class="butn">Read More</button>
-                        </article>
-                    </li>
-                    <li class="latest-news-item">
-                        <article class="latest-news-container">
-                            <img class="news-picture" src="./img/news_3_bus.jpg" alt="bus" height="261" width="347">
-                            <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
-                            <p class="news-text"> Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-                                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunc</p>
-                            <button class="butn">Read More</button>
-                        </article>
-                    </li>
 
                 </ul>
             </section>
+
         </main>
-     </div>
+    
+    <!--footer-->
+    <footer class="page-footer">
+        <p class="footer-text">All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a>
+        </p>
+    </footer>
 </body>
 
 </html>
