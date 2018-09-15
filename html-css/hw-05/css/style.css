@@ -132,6 +132,8 @@ input[type="radio"].visually-hidden{
 .slider-title{
   position: relative;
   min-height: 600px;
+  text-align: left;
+  margin: auto;  
 }
 
 .slider-ctrl{
@@ -140,7 +142,6 @@ input[type="radio"].visually-hidden{
   height: 100px;
   border: 0;
   background-color: rgba(139, 69, 19, 0.7);
-  border-radius: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -151,10 +152,18 @@ input[type="radio"].visually-hidden{
 
 .slider-ctrl-prev{
   left: 0;
+  display: inline-block;
+  background-image: url('../img/slides-ctrl-prev.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slider-ctrl-next{
   right: 0;
+  display: inline-block;
+  background-image: url('../img/slides-ctrl-next.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slides-list{
@@ -292,10 +301,7 @@ margin-right: 30px
   margin:0;
   padding:20px 0;
 }
-/*.footer-wrapper{
-margin:0 auto;
-padding: 0;
-}*/
+
 .footer-text{
 font-family: "Open Sans", Arial, sans-serif;
 color:  #fefefe;
