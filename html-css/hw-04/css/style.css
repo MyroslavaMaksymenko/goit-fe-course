@@ -120,12 +120,14 @@ input[type="radio"].visually-hidden{
     overflow:hidden;
 }
 .featured-products-title{
+  margin:0;
   color:  #555252;
   font-size: 36px;
   font-weight: 900;
   line-height: 32px;
   text-align: center;
   text-transform: uppercase; 
+  margin-bottom: 30px;
 }
 .featured-products-title::after{
   display:inline-block;
@@ -230,7 +232,7 @@ margin-right: 30px
 .latest-news-item{
 float: left;
 margin-right: 30px;
-width: 348px;
+width: 350px;
 list-style: none;
 position: relative;
 margin-right: 30px
