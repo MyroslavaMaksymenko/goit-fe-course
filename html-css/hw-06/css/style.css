@@ -90,19 +90,19 @@ input[type="radio"].visually-hidden {
   transition: color 0.2s linear;
 }
 
-.navigation-list-item a:after {
-  content: "";
-  height: 3px;
-  display: block;
-  transform: scaleX(0)
-  background-color: #f38181;
-  transition: transform 0.2s linear;
+.navigation-list-item a::after {
+ content: "";
+ height: 3px;
+ display: block;
+ transform: scaleX(0);
+ background-color: #f38181;
+ transition: transform 0.2s linear;
 }
 .navigation-list-item a:hover{
-  color: #f38181;
+ color: #f38181;
 }
 .navigation-list-item a:hover::after{
-  transform: scaleX(1)
+ transform: scaleX(1);
 }
 
 /*Services*/
