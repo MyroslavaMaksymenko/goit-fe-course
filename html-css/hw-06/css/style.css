@@ -44,7 +44,6 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-
 /*--navigation--*/
 
 ----------------------
@@ -91,24 +90,20 @@ input[type="radio"].visually-hidden {
   transition: color 0.2s linear;
 }
 
-.navigation-list-item a::after {
-  display: inline-block;
+.navigation-list-item a:after {
   content: "";
-  width: 0%;
   height: 3px;
   display: block;
+  transform: scaleX(0)
   background-color: #f38181;
-  transition: width 0.2s linear;
+  transition: transform 0.2s linear;
 }
 .navigation-list-item a:hover{
   color: #f38181;
 }
-.navigation-list-item a::after:hover{
-  width: 100%;
+.navigation-list-item a:hover::after{
+  transform: scaleX(1)
 }
-
-
-
 
 /*Services*/
 .services-list{
@@ -136,8 +131,6 @@ input[type="radio"].visually-hidden {
 .digitale::before {
   background: url(../img/icon_image.png) no-repeat;
 }
-
-
 
 /*page footer*/
 
