@@ -109,8 +109,7 @@ input[type="radio"].visually-hidden {
 /*Services*/
 .services{
   margin-top: 0;
-  margin-bottom: 94px;
-  padding: 0 20px;
+  padding: 0 0 94px;
 }
 .services-title{
   margin-top: 0;
@@ -125,6 +124,7 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   line-height: 30px;
   text-transform: none;
+  margin:0;
   margin-bottom: 25px;
   color: #333333;
 }
@@ -186,6 +186,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   font-weight: 400;
   text-align: left;
+  margin: 0;
 }
 
 .services-li-item::before{
@@ -219,7 +220,7 @@ input[type="radio"].visually-hidden {
 .team{
   margin-top: 0;
   margin-bottom: 94px;
-  padding: 0 20px;
+  padding: 0;
 }
 .team-section-title{
   margin-top: 0;
@@ -261,17 +262,14 @@ input[type="radio"].visually-hidden {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 0;
   margin-bottom: 82px;
   padding: 0;
 }
 
 .team-list-member{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;    
-  
+  flex: 0 0 380 px
 }
 
 .team-list-member-photo{    
@@ -308,7 +306,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   display: flex;
   justify-content: space-between;   
-  width: 228px; 
+  width: 224px; 
   margin: 0;
   padding: 0;
 }
@@ -378,6 +376,7 @@ input[type="radio"].visually-hidden {
  font-size: 14px;
  font-weight: 400;
  text-align: center;
+ margin: 0;
  margin-bottom: 15px;
 }
 .occupation{
@@ -398,6 +397,7 @@ input[type="radio"].visually-hidden {
   height: 88px;
   margin: 0;
   padding: 20px 20px;
+  border-top: 1px solid #e7e7e7;
 }
 
 .footer-text {
@@ -407,6 +407,7 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
+  margin: 0;
 }
 .footer-text a {
   font-family: " Montserrat", Arial, sans-serif;
@@ -446,4 +447,5 @@ input[type="radio"].visually-hidden {
   background-color: #95e1d3;
   border: 1px solid #95e1d3;
   text-align:center;
+  
 }
