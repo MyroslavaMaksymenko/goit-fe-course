@@ -9,22 +9,22 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  min-height:100vh;
-  background-color:#fff;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
   font-weight: 400;
   color: #999999;
   font-size: 14px;
   line-height: 26px;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.wrapper{
+.wrapper {
   width: 1200px;
   margin: 0 auto;
 }
@@ -46,29 +46,28 @@ input[type="radio"].visually-hidden {
 
 /*--navigation--*/
 
-----------------------
-.page-header{
+---------------------- .page-header {
   margin-bottom: 112px;
 }
 .navigation-container {
   display: flex;
-  min-height: 65px;  
+  min-height: 65px;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
 }
 
-.logo{
+.logo {
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
-  line-height: 34px;  
-  color:#95e1d3;
+  line-height: 34px;
+  color: #95e1d3;
 }
 
-.navigation-list{
+.navigation-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,10 +77,10 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.navigation-list-item a{
+.navigation-list-item a {
   display: block;
   padding: 5px 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #95e1d3;
   font-size: 14px;
   font-weight: 400;
@@ -92,47 +91,47 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation-list-item a::after {
- content: "";
- height: 3px;
- display: block;
- transform: scaleX(0);
- background-color: #f38181;
- transition: transform 0.2s linear;
+  content: "";
+  height: 3px;
+  display: block;
+  transform: scaleX(0);
+  background-color: #f38181;
+  transition: transform 0.2s linear;
 }
-.navigation-list-item a:hover{
- color: #f38181;
+.navigation-list-item a:hover {
+  color: #f38181;
 }
-.navigation-list-item a:hover::after{
- transform: scaleX(1);
+.navigation-list-item a:hover::after {
+  transform: scaleX(1);
 }
 
 /*Services*/
-.services{
+.services {
   margin-top: 0;
   padding: 0 0 94px;
 }
-.services-title{
+.services-title {
   margin-top: 0;
-  margin-bottom: 66px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 66px;
 }
 
-.subtitle{
-  font-family: 'Kaushan Script', 'Times New Roman', Times, serif, cursive;
+.subtitle {
+  font-family: "Kaushan Script", "Times New Roman", Times, serif, cursive;
   font-size: 24px;
   line-height: 30px;
   text-transform: none;
-  margin:0;
+  margin: 0;
   margin-bottom: 25px;
   color: #333333;
 }
 
-.services-title-main{
+.services-title-main {
   margin: 0;
   width: 315px;
-  font-family:'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -140,16 +139,15 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.services-title-main::after{
-  content: '';
+.services-title-main::after {
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
   background-color: #f38181;
   margin: 40px auto 0;
-
 }
-.services-list{
+.services-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -157,20 +155,20 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0 10px;
 }
-.services-li-item{
-  margin-top: 0;   
+.services-li-item {
+  margin-top: 0;
   margin-bottom: 100px;
   padding-left: 80px;
-  width: 382px;     
-  display: flex;  
+  width: 382px;
+  display: flex;
   flex-direction: column;
   position: relative;
 }
-.services-li-item:nth-child(n+4){
+.services-li-item:nth-child(n + 4) {
   margin-bottom: 0;
 }
 
-.serv-li-item-title{
+.serv-li-item-title {
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
@@ -180,8 +178,8 @@ input[type="radio"].visually-hidden {
   color: #333333;
 }
 
-.serv-li-text{
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.serv-li-text {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -189,48 +187,48 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
-.services-li-item::before{
+.services-li-item::before {
   display: inline-block;
-  content: '';
+  content: "";
   width: 32px;
   height: 32px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.photography::before{
+.photography::before {
   background: url(../img/icon_alarm.png) no-repeat;
 }
-.web-design::before{
+.web-design::before {
   background: url(../img/icon_graph.png) no-repeat;
 }
-.creativity::before{
+.creativity::before {
   background: url(../img/icon_computer_ok.png) no-repeat;
 }
-.seo::before{
-  background: url(../img/icon_book.png)  no-repeat;
+.seo::before {
+  background: url(../img/icon_book.png) no-repeat;
 }
-.css-html::before{
-  background: url(../img/icon_home.png)  no-repeat;
+.css-html::before {
+  background: url(../img/icon_home.png) no-repeat;
 }
-.digital::before{
+.digital::before {
   background: url(../img/icon_image.png) no-repeat;
 }
 /*team section*/
-.team{
+.team {
   margin-top: 0;
   margin-bottom: 94px;
   padding: 0;
 }
-.team-section-title{
+.team-section-title {
   margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.team-title::after{
-  content: '';
+.team-title::after {
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -238,10 +236,10 @@ input[type="radio"].visually-hidden {
   margin: 40px auto 0;
 }
 
-.team-title{
+.team-title {
   margin: 0;
   width: 270px;
-  font-family:'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -249,16 +247,18 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.team-description{
+.team-description {
   font-family: Roboto;
   width: 950px;
   font-size: 15px;
   line-height: 24px;
   text-align: center;
+  margin: 0;
   margin-top: 20px;
+  padding-bottom: 100px;
 }
 
-.team-list{
+.team-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -267,126 +267,130 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 
-.team-list-member{
-  position: relative;    
-  flex: 0 0 380 px
+.team-list-member {
+  position: relative;
+  flex: 0 0 380 px;
 }
 
-.team-list-member-photo{    
-  margin-bottom: 30px;     
+.team-list-member-photo {
+  margin-bottom: 30px;
   transition: all 0.2s linear;
 }
 
-.team-list-member:hover .team-list-member-photo{
-  transform: translate(-10px, -10px);    
+.team-list-member:hover .team-list-member-photo {
+  transform: translate(-10px, -10px);
   box-shadow: 10px 10px #95e1d3;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient( 360deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+  background-image: linear-gradient(
+    360deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
   width: 380px;
   height: 470px;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   opacity: 0;
   transition: all 0.2s linear;
 }
 
-.team-list-member:hover .overlay{    
+.team-list-member:hover .overlay {
   transform: translate(-10px, -10px);
   opacity: 1;
 }
 
-.social-icon-list{
+.social-icon-list {
   position: absolute;
   list-style: none;
   display: flex;
-  justify-content: space-between;   
-  width: 224px; 
+  justify-content: space-between;
+  width: 224px;
   margin: 0;
   padding: 0;
 }
 
-.social-icon-list-item{
+.social-icon-list-item {
   position: relative;
   width: 55px;
   height: 55px;
-  background-color: #fce38a;      
+  background-color: #fce38a;
 }
 
-.social-icon-list-item:hover{
+.social-icon-list-item:hover {
   cursor: pointer;
 }
-.social-icon-list-item a{
-  display: block;    
+.social-icon-list-item a {
+  display: block;
 }
 
-.facebook{
+.facebook {
   background-image: url(../img/facebook.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.twitter{
+.twitter {
   background-image: url(../img/twitter.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.pinterest{
+.pinterest {
   background-image: url(../img/pinterest.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.instagram{
+.instagram {
   background-image: url(../img/instagram.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.social-icon-list-item img{
+.social-icon-list-item img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.social-icon-list-item:hover{
+.social-icon-list-item:hover {
   background-color: #95e1d3;
   transition: all 0.2s linear;
 }
 
-.member-info{
+.member-info {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
-.name{
- font-family: "Montserrat", Arial, sans-serif;
- color: #333333;
- font-size: 14px;
- font-weight: 400;
- text-align: center;
- margin: 0;
- margin-bottom: 15px;
+.name {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
 }
-.occupation{
+.occupation {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
   line-height: 24px;
   text-align: center;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 /*page footer*/
@@ -395,7 +399,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   height: 88px;
-  margin: 0;
   padding: 20px 20px;
   border-top: 1px solid #e7e7e7;
 }
@@ -419,25 +422,25 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 
-.subscribe{
+.subscribe {
   display: flex;
 }
 
-.subscribe-input{
-  font-family: 'Roboto', sans-serif;
+.subscribe-input {
+  font-family: "Roboto", sans-serif;
   color: #cccccc;
   font-size: 15px;
   line-height: 24px;
   font-style: italic;
   font-weight: 300;
-  text-align: left; 
+  text-align: left;
   width: 230px;
   height: 40px;
   border: 1px solid #e7e7e7;
 }
 
-.subscribe-btn{
-  font-family: 'Montserrat', sans-serif;
+.subscribe-btn {
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
@@ -446,6 +449,5 @@ input[type="radio"].visually-hidden {
   height: 40px;
   background-color: #95e1d3;
   border: 1px solid #95e1d3;
-  text-align:center;
-  
+  text-align: center;
 }
