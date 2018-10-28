@@ -45,7 +45,8 @@
   font-weight: 600;
    src:  url('../fonts/montserrat-v12-latin_cyrillic-600italic.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/montserrat-v12-latin_cyrillic-600italic.woff') format('woff'), /* Modern Browsers */
-       }
+   }
+
 /* montserrat-700 - latin_cyrillic */
 @font-face {
   font-family: 'Montserrat';
@@ -227,12 +228,12 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 75px;
   /*padding-bottom: 20px;*/
 }
 
 .services-title-main {
   margin: 0;
-  width: 290px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -247,7 +248,6 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   text-transform: none;
   margin: 0;
-  margin-bottom: 75px;
   font-style: italic;
   text-align: center; 
 }
@@ -260,10 +260,9 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   list-style: none;
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
 }
 .services-li-item {
-  margin-top: 0;
   width: 290px;
   display: flex;
   flex-direction: column;
@@ -298,14 +297,9 @@ input[type="radio"].visually-hidden {
 
 .services-li-item::before {
   display: block;
-  padding-bottom: 20px;
   content: "";
   width: 73px;
   height: 74px;
-  position: absolute;
-  top: -40%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 .e-commerce::before {
   background: url(../img/icon_commerce.png) no-repeat;
