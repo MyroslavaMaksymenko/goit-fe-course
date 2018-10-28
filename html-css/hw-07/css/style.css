@@ -110,7 +110,7 @@
   font-family: "Arizonia";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/arizonia-v8-latin-regular.woff")
+  src: url("/fonts/arizonia-v8-latin-regular.woff")
       format("woff"); /* Modern Browsers */
 }
 
@@ -118,7 +118,7 @@
   font-family: "Damion";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/damion-v7-latin-regular.woff")
+  src: url("/fonts/damion-v7-latin-regular.woff")
       format("woff"); /* Modern Browsers */
 }
 html {
@@ -188,7 +188,7 @@ input[type="radio"].visually-hidden {
 
 .logo {
   display: inline-block;
-  font-family: "Arizonia", "Damion" sans-serif;
+  font-family: "Arizonia", "Damion", sans-serif;
   font-size: 26px;
   font-weight: 400;
   text-decoration: none;
