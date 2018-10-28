@@ -118,7 +118,7 @@
   font-family: "Damion";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/damion-v7-latin-regular.woff")
+  src: url("./fonts/damion-v7-latin-regular.woff")
       format("woff"); /* Modern Browsers */
 }
 html {
