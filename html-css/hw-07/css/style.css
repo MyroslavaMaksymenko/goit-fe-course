@@ -378,7 +378,7 @@ input[type="radio"].visually-hidden {
   font-family: "Montserrat", sans-serif;
 }
 
-.textarea {
+textarea {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: #bbbbbb;
@@ -417,6 +417,9 @@ textarea:invalid {
   outline-color: #ee1c1c;
 }
 
+input:nth-last-child(1){
+  margin-bottom: 0;
+}
 .send-btn {
   display: block;
   border-radius: 3px;
