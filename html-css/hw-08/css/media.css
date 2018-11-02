@@ -67,6 +67,9 @@
   .partners-list-item:nth-child(4) {
     order: 3;
   }
+  .partners-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 960px) {
   .wrapper {
@@ -102,7 +105,9 @@
   .partners-list-item {
     width: 220px;
   }
-  
+  .partners-list-item:last-child {
+    margin-right: 0px;
+  }
   .partners-list-item:nth-last-child(-n + 4) {
     margin-bottom: 0;
   }
