@@ -145,7 +145,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding: 8px 15px;;
   background-color: #ff5a5a;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   border-radius: 20px;
   font-size: 14px;    
   line-height: 17px;
@@ -281,7 +281,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding: 8px 15px;
   background-color: #ff5a5a;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   border-radius: 20px;
   font-size: 14px;    
   line-height: 17px;
