@@ -12,6 +12,7 @@ do {
   if (Number.isNaN(userInput)) {
     message = 'Было введено не число, попробуйте еще раз';
     alert(message);
+    continue;
   } else if (!userInput) {
     message = 'Отменено пользователем!';
     alert(message);
